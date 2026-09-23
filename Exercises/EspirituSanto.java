@@ -6,8 +6,7 @@ public class EspirituSanto extends Hijo {
         super(nombre, apellido);
         this.apellidoReal = apellidoReal;
     }
-    public Boolean pruebaParternidad(){
-        return this.apellido == this.apellidoReal;
+    public Boolean pruebaParternidad() {
+        return this.apellido.equals(this.apellidoReal);
     }
-    
 }
